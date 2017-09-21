@@ -678,7 +678,7 @@ F 1 "Power Entry" H 950 1400 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 950 1200 50  0001 C CNN
 F 3 "" H 950 1200 50  0001 C CNN
 	1    950  1200
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Conn_01x05 J1003

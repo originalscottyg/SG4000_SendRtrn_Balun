@@ -689,7 +689,7 @@ F 1 "Audio To XLR" H 10800 4050 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 10800 4450 50  0001 C CNN
 F 3 "" H 10800 4450 50  0001 C CNN
 	1    10800 4350
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L R-RESCUE-SG4000_SendRtrn_Balun R1012
@@ -721,13 +721,13 @@ Text GLabel 3150 5250 0    39   Input ~ 0
 RTRN_XLR-
 Text GLabel 3150 5650 0    39   Input ~ 0
 RTRN_XLR+
-Text GLabel 10450 4150 0    39   Input ~ 0
+Text GLabel 10450 4550 0    39   Input ~ 0
 SEND_XLR+
-Text GLabel 10450 4250 0    39   Input ~ 0
+Text GLabel 10450 4450 0    39   Input ~ 0
 SEND_XLR-
-Text GLabel 10450 4450 0    39   Output ~ 0
+Text GLabel 10450 4250 0    39   Output ~ 0
 RTRN_XLR-
-Text GLabel 10450 4550 0    39   Output ~ 0
+Text GLabel 10450 4150 0    39   Output ~ 0
 RTRN_XLR+
 $Comp
 L GND-RESCUE-SG4000_SendRtrn_Balun #PWR016
@@ -761,13 +761,13 @@ Wire Wire Line
 Wire Wire Line
 	9750 4550 9750 4350
 Wire Wire Line
-	10450 4550 10600 4550
-Wire Wire Line
-	10450 4450 10600 4450
+	10450 4150 10600 4150
 Wire Wire Line
 	10450 4250 10600 4250
 Wire Wire Line
-	10450 4150 10600 4150
+	10450 4450 10600 4450
+Wire Wire Line
+	10450 4550 10600 4550
 Wire Wire Line
 	1150 4500 1300 4500
 Wire Wire Line
