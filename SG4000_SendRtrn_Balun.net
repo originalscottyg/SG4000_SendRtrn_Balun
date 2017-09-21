@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/Users/scottyg/Documents/Kicad Projets/SG4000_SendRtrn_Balun/SG4000_SendRtrn_Balun.sch")
-    (date "Tuesday, September 19, 2017 11:35:25 PM")
+    (date "Wednesday, September 20, 2017 11:08:52 PM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
